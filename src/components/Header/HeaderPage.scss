@@ -1,0 +1,37 @@
+nav {
+    .container {
+        .header-logo {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+        }
+
+        .nav-right {
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+            .nav-search {
+                position: relative;
+
+                .cart-count {
+                    position: absolute;
+                    padding: 0;
+                    width: 16px;
+                    height: 16px;
+                    line-height: 16px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #f76b6a;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: 1;
+                    font-size: 11px;
+                    color: #fff;
+                    top: 3px;
+                    left: 25px;
+                }
+            }
+        }
+    }
+}
